@@ -12,10 +12,14 @@ She wants to know relationship between priorly launched campaign's dates, fundin
 It was not very tough, though I have to do some effort to reach the final outcome. 
 
 ### Analysis of Outcomes Based on Launch Date
-As per Figure ![Theater_Outcomes_vs_Launch](https://github.com/FatimaJHussain/kickstarter-analysis-/blob/main/Theater_Outcomes_vs_Launch.png), number of successful events start picking up the pace from March. Most successful events were in month of May  and gradually decrease till December, where we can see, maximum number of failed events.
+Figure-1 ![Theater_Outcomes_vs_Launch](https://github.com/FatimaJHussain/kickstarter-analysis-/blob/main/Theater_Outcomes_vs_Launch.png), 
+
+As shown in Figure-1, number of successful events start picking up the pace from March. Most successful events were in month of May  and gradually decrease till December, where we can see, maximum number of failed events.
 
 ### Analysis of Outcomes Based on Goals
-As per Figure: ![Outcomes_vs_Goals](https://github.com/FatimaJHussain/kickstarter-analysis-/blob/main/Outcomes_vs_Goals.png), when goal amount is less , most of the compaigns are successful. However, as the goal target is increased, number of successful compaigns decreases. Moreover, none of the compaign was cancelled, this shows that people are interested in attending these compaign events.  Also, there is a sudden rise in successful compaigns in the goal range of 30,000-40,000.
+Figure-2 ![Outcomes_vs_Goals](https://github.com/FatimaJHussain/kickstarter-analysis-/blob/main/Outcomes_vs_Goals.png), 
+
+As shown in Figure-2, when goal amount is less , most of the compaigns are successful. However, as the goal target is increased, number of successful compaigns decreases. Moreover, none of the compaign was cancelled, this shows that people are interested in attending these compaign events.  Also, there is a sudden rise in successful compaigns in the goal range of 30,000-40,000.
 
 ### Challenges and Difficulties Encountered
 YEAR () function was introduced, but final pivot table had rows distribution on months. Thinking more into it, I figured out MONTH() in excel and was able to get the desired pivot table. 
